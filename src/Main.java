@@ -28,7 +28,6 @@ public class Main extends JFrame {
 
     Main() {
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
-        this.setVisible(true);
         this.setBounds(100, 50, Width, Height);
         this.setTitle("Game");
         this.setLayout(null);
@@ -215,7 +214,6 @@ public class Main extends JFrame {
 
             @Override
             public void keyPressed(KeyEvent e) {
-                System.out.println(e.getKeyChar());
                     if (Game) {
                         switch (e.getKeyCode()) {
                             case 87 -> {
