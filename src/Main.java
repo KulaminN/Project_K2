@@ -28,6 +28,7 @@ public class Main extends JFrame {
 
     Main() {
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+        this.setVisible(true);
         this.setBounds(100, 50, Width, Height);
         this.setTitle("Game");
         this.setLayout(null);
